@@ -1,2 +1,2 @@
 # web-based-project
-Dots Store
+Apo Store

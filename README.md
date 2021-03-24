@@ -1,2 +1,2 @@
 # web-based-project
-Apo Store
+Sky Store

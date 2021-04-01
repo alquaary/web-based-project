@@ -69,10 +69,10 @@
   <ItemGroup>
     <Content Include="Default.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="public\assets\javascript\login.js" />
     <Content Include="public\assets\javascript\navbar.js" />
     <Content Include="public\assets\styles\login.css" />
     <Content Include="public\assets\styles\main.css" />
-    <Content Include="public\assets\styles\sign-in-up.css" />
     <Content Include="public\db\database.png" />
     <Content Include="public\db\database_diagram.png" />
     <Content Include="public\images\3d.png" />

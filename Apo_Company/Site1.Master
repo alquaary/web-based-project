@@ -70,7 +70,7 @@
       </div>
     </footer>
     
-    <script src="assets/javascript/navbar.js"></script>
+    <script src="public/assets/javascript/navbar.js"></script>
             
         
     </form>

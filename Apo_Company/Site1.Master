@@ -27,11 +27,12 @@
         <div class="line"></div>
       </div>
       <ul class="nav-links">
-        <li><a href="#">Main Page</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#"><asp:Label ID="Label1" runat="server">SignIn</asp:Label></a></li>
-        <li><a href="#"><asp:Label ID="x" runat="server">SignUp</asp:Label></a></li>
+        <li><a href="/">Main Page</a></li>
+        <li><a href="/Contact.aspx">Contact</a></li>
+        <li><a href="/Products.aspx">Products</a></li>
+          <li><a href="/Basket.aspx">Basket</a></li>
+        <li><a href="/login.aspx"><asp:Label ID="Label1" runat="server">SignIn</asp:Label></a></li>
+        
       </ul>
     </nav>
 

@@ -24,7 +24,7 @@
                   <h3>3D Printers</h3>
                   <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden
                   </p>
-                  <a href="#">Read More</a>
+                  <a href="/catagory.aspx?type=3dprinter">Read More</a>
                 </div>
               </div>
 
@@ -34,7 +34,7 @@
                   <h3>Drones</h3>
                   <p>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden
                   </p>
-                  <a href="#">Read More</a>
+                  <a href="catagory.aspx?type=drone">Read More</a>
                 </div>
               </div>
 

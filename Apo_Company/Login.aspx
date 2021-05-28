@@ -10,21 +10,26 @@
             <h1 class="form__title">Login</h1>
             <div class="form__message form__message--error"></div>
             <div class="form__input-group">
-                <input type="text" class="form__input" autofocus placeholder="Username or email">
+                <asp:TextBox ID="TextBox1" CssClass="form__input" placeholder="Username or email" runat="server"></asp:TextBox>
                 <div class="form__input-error-message"></div>
             </div>
             <div class="form__input-group">
-                <input type="password" class="form__input" autofocus placeholder="Password">
+                <asp:TextBox ID="TextBox2" type="password" CssClass="form__input" placeholder="Password" runat="server"></asp:TextBox>
                 <div class="form__input-error-message"></div>
             </div>
-            <button class="form__button" type="submit">Continue</button>
+            <asp:Button ID="Button1" CssClass="form__button" runat="server" Text="Continue" OnClick="Button1_Click"/>
             <p class="form__text">
                 <a href="#" class="form__link">Forgot your password?</a>
             </p>
             <p class="form__text">
                 <a class="form__link" href="./" id="linkCreateAccount">Don't have an account? Create account</a>
             </p>
+            <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         </div>
+
+
+
+
         <div class="form form--hidden" id="createAccount">
             <h1 class="form__title">Create Account</h1>
             <div class="form__message form__message--error"></div>

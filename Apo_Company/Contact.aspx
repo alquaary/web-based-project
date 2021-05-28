@@ -18,6 +18,6 @@
                 <span>Email: </span><span>Mugla@mu.edu.tr</span>
             </p>
         </div>
-        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.4340589033104!2d28.37893988435966!3d37.166154354713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bf73c9263b4757%3A0x3a1020fa0911b7a4!2z2KzYp9mF2LnYqSDZhdmI2LrZhNin!5e0!3m2!1sar!2str!4v1617303789477!5m2!1sar!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3781.053028151866!2d28.374041420251753!3d37.16520641185252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xedd21f7e5c1fb13d!2zTXXEn2xhIFPEsXRrxLEgS2_Dp21hbiDDnG5pdmVyc2l0ZXNpIFRla25vbG9qaSBGYWvDvGx0ZXNp!5e0!3m2!1str!2str!4v1617348706037!5m2!1str!2str" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
     </div>
 </asp:Content>

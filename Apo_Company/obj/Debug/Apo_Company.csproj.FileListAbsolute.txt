@@ -116,3 +116,7 @@ C:\Users\user\Desktop\web\web-based-project\Apo_Company\obj\Debug\Apo_Company.cs
 C:\Users\user\Desktop\web\web-based-project\Apo_Company\obj\Debug\Apo_Company.csproj.CopyComplete
 C:\Users\user\Desktop\web\web-based-project\Apo_Company\obj\Debug\Apo_Company.dll
 C:\Users\user\Desktop\web\web-based-project\Apo_Company\obj\Debug\Apo_Company.pdb
+C:\Users\user\Desktop\web\web-based-project\Apo_Company\bin\EntityFramework.dll
+C:\Users\user\Desktop\web\web-based-project\Apo_Company\bin\EntityFramework.SqlServer.dll
+C:\Users\user\Desktop\web\web-based-project\Apo_Company\bin\EntityFramework.xml
+C:\Users\user\Desktop\web\web-based-project\Apo_Company\bin\EntityFramework.SqlServer.xml

@@ -18,8 +18,10 @@ namespace Apo_Company
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            
             if (TextBox1.Text != "" && TextBox2.Text != "")
             {
+                
 
                 SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["product"].ConnectionString);
 
@@ -44,11 +46,11 @@ namespace Apo_Company
                         Label1.Text = "Basariyla kayit yapilmistir";
                         Session.Timeout = 3;
                         Session.Add("Name", TextBox1.Text);
-
+                         
                     }
                     else
                     {
-                        Label1.Text = "no no no";
+                        Page.ClientScript.RegisterStartupScript(this.GetType(), "Script", "user_error()", true);
                     }
 
                 }
@@ -61,6 +63,59 @@ namespace Apo_Company
             {
                 Label1.Text = "Bosluklari Doldurun";
             }
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+
+            if (TextBox3.Text != "" && TextBox4.Text != "" && TextBox5.Text != "" && TextBox6.Text != "" && TextBox7.Text != "" && TextBox8.Text != "")
+            {
+                SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["product"].ConnectionString);
+
+                string dt1 = DateTime.Now.ToString("dd/MM/yyyy");
+
+                string sorgu = "INSERT INTO [Customers] ([customerID], [name], [surname], [phone], [address], [password], [email], [date]) VALUES (@ID, @name, @surname, @phone, @address, @password, @email, " + dt1 + ");";
+
+
+                using (SqlCommand cmd = new SqlCommand(sorgu, con))
+                {
+                    cmd.Parameters.AddWithValue("@ID", TextBox3.Text);
+                    cmd.Parameters.AddWithValue("@name", TextBox4.Text);
+                    cmd.Parameters.AddWithValue("@surname", TextBox5.Text);
+                    cmd.Parameters.AddWithValue("@phone", TextBox6.Text);
+                    cmd.Parameters.AddWithValue("@address", TextBox7.Text);
+                    cmd.Parameters.AddWithValue("@password", TextBox8.Text);
+                    cmd.Parameters.AddWithValue("@email", TextBox9.Text);
+
+                    con.Open();
+                    int result = cmd.ExecuteNonQuery();
+
+                    // Check Error
+                    if (result < 0)
+                    {
+                        
+                        Page.ClientScript.RegisterStartupScript(this.GetType(), "Script", "register_error()", true);
+                    }
+                    else
+                    {
+                        Page.ClientScript.RegisterStartupScript(this.GetType(), "Script", "User_register()", true);
+
+                    }
+                }
+                
+
+
+
+
+
+
+            }
+            else
+            {
+                Page.ClientScript.RegisterStartupScript(this.GetType(), "Script", "user_error()", true);
+
+            }
+
         }
     }
 }

@@ -79,7 +79,10 @@
         function user_error() {
             alert("User name or password may be wrong");
         }
-        function User_added() {
+        function User_register() {
+            alert("User name or password may be wrong");
+        }
+        function register_error() {
             alert("User name or password may be wrong");
         }
     </script>

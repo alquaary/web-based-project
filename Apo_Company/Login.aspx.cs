@@ -13,7 +13,12 @@ namespace Apo_Company
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            object kullanici = Session["Name"];
 
+            if (kullanici != null)
+            {
+                Response.Redirect("/");
+            }
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -46,6 +51,7 @@ namespace Apo_Company
                         Label1.Text = "Basariyla kayit yapilmistir";
                         Session.Timeout = 3;
                         Session.Add("Name", TextBox1.Text);
+                        Response.Redirect("/");
                          
                     }
                     else

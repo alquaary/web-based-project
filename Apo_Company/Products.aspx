@@ -14,6 +14,7 @@
                   <p class="price"><%#Eval("price") %>$</p>
                   <p>Brand: <%#Eval("brand") %></p>
                   <p><button>Add to Cart</button></p>
+                    
                 </div>
             </ItemTemplate>
         </asp:ListView>

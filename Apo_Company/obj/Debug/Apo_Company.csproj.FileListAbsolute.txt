@@ -183,3 +183,5 @@ C:\Users\user\Desktop\Final_asp\web-based-project\Apo_Company\obj\Debug\Apo_Comp
 C:\Users\user\Desktop\Final_asp\web-based-project\Apo_Company\obj\Debug\Apo_Company.csproj.CopyComplete
 C:\Users\user\Desktop\Final_asp\web-based-project\Apo_Company\obj\Debug\Apo_Company.dll
 C:\Users\user\Desktop\Final_asp\web-based-project\Apo_Company\obj\Debug\Apo_Company.pdb
+C:\Users\user\Desktop\Final_asp\web-based-project\Apo_Company\bin\Newtonsoft.Json.dll
+C:\Users\user\Desktop\Final_asp\web-based-project\Apo_Company\bin\Newtonsoft.Json.xml
